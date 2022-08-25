@@ -1,0 +1,19 @@
+.container {
+    @apply bg-accent hidden rounded-tr-[2rem] rounded-br-[2rem];
+    @apply md:block md:w-1/2;
+    nav {
+        @apply h-[10%] pl-6;
+        span {
+            @apply cursor-pointer;
+        }
+    }
+    .main {
+        @apply flex h-[90%] justify-center items-center flex-col gap-7;
+        h1 {
+            @apply text-3xl text-white font-semibold;
+            span {
+                @apply text-primary;
+            }
+        }
+    }
+}

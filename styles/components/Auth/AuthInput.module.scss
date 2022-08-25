@@ -1,0 +1,24 @@
+.container {
+    @apply flex flex-col mb-6;
+    span {
+        @apply mb-1;
+    }
+    input {
+        @apply p-2 rounded-md;
+        @apply bg-slate-300 outline-none;
+        &::placeholder {
+            @apply text-gray-500 font-roboto tracking-tighter;
+        }
+    }
+    p {
+        @apply font-thin text-xs text-slate-400;
+    }
+}
+.error {
+    input {
+        @apply bg-red-400;
+        &::placeholder {
+            @apply text-gray-100;
+        }
+    }
+}

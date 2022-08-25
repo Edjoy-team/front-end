@@ -5,7 +5,15 @@ module.exports = {
         './components/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
-        extend: {},
+        fontFamily: {
+            roboto: ['Roboto Mono', 'sans-serif'],
+        },
+        extend: {
+            colors: {
+                primary: '#4adede',
+                accent: '#4c70ff',
+            },
+        },
     },
     plugins: [],
 };
