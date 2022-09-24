@@ -12,12 +12,15 @@ function LoginAside() {
                 </Link>
             </nav>
             <div className={styles.main}>
-                <Image
-                    src='/login.svg'
-                    alt='Edu Svg'
-                    width={250}
-                    height={250}
-                />
+                <div className={styles.svg}>
+                    <Image
+                        src='/login.svg'
+                        alt='Edu Svg'
+                        layout='fill'
+                        width={250}
+                        height={250}
+                    />
+                </div>
                 <h1>
                     Welcome to <span className={styles.green}>Ed</span>
                     <span className={styles.blue}>joy</span>

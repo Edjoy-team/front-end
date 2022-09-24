@@ -9,8 +9,11 @@
     }
     .main {
         @apply flex h-[90%] justify-center items-center flex-col gap-7;
+        .svg {
+            @apply w-full h-1/2 flex align-middle justify-center relative;
+        }
         h1 {
-            @apply text-3xl text-white font-semibold;
+            @apply text-3xl h-1/6 text-white font-semibold;
             span {
                 @apply text-primary;
             }
